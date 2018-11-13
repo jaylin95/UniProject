@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaysonlinhaychiu.uniprojectdraft2.ChampList_H_to_M">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/infoClickTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/click_info"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/hecarimTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hecarim_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/hecarimTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/hecarim_desc"
+                app:srcCompat="@drawable/hecarim_square" />
+
+            <TextView
+                android:id="@+id/heimerdingerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heimerdinger_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/heimerdingerTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/heimerdinger_desc"
+                app:srcCompat="@drawable/heimerdinger_square" />
+
+            <TextView
+                android:id="@+id/illaoiTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/illaoi_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/illaoiTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/illaoi_desc"
+                app:srcCompat="@drawable/illaoi_square" />
+
+            <TextView
+                android:id="@+id/ireliaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/irelia_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/ireliaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/irelia_desc"
+                app:srcCompat="@drawable/irelia_square" />
+
+            <TextView
+                android:id="@+id/ivernTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ivern_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/ivernTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ivern_desc"
+                app:srcCompat="@drawable/ivern_square" />
+
+            <TextView
+                android:id="@+id/jannaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janna_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/jannaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/janna_desc"
+                app:srcCompat="@drawable/janna_square" />
+
+            <TextView
+                android:id="@+id/jarvanTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jarvan_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/jarvanTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/jarvan_desc"
+                app:srcCompat="@drawable/jarvan_square" />
+
+            <TextView
+                android:id="@+id/jaxTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jax_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/jaxTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/jax_desc"
+                app:srcCompat="@drawable/jax_square" />
+
+            <TextView
+                android:id="@+id/jayceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jayce_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/jayceTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/jayce_desc"
+                app:srcCompat="@drawable/jayce_square" />
+
+            <TextView
+                android:id="@+id/jhinTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jhin_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/jhinTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/jhin_desc"
+                app:srcCompat="@drawable/jhin_square" />
+
+            <TextView
+                android:id="@+id/jinxTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jinx_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/jinxTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/jinx_desc"
+                app:srcCompat="@drawable/jinx_square" />
+
+            <TextView
+                android:id="@+id/kaisaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kaisa_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kaisaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kaisa_desc"
+                app:srcCompat="@drawable/kaisa_square" />
+
+            <TextView
+                android:id="@+id/kalistaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kalista_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kalistaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kalista_desc"
+                app:srcCompat="@drawable/kalista_square" />
+
+            <TextView
+                android:id="@+id/karmaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/karma_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/karmaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/karma_desc"
+                app:srcCompat="@drawable/karma_square" />
+
+            <TextView
+                android:id="@+id/karthusTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/karthus_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/karthusTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/karthus_desc"
+                app:srcCompat="@drawable/karthus_square" />
+
+            <TextView
+                android:id="@+id/kassadinTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kassadin_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kassadinTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kassadin_desc"
+                app:srcCompat="@drawable/kassadin_square" />
+
+            <TextView
+                android:id="@+id/katarinaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/katarina_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/katarinaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/katarina_desc"
+                app:srcCompat="@drawable/katarina_square" />
+
+            <TextView
+                android:id="@+id/kayleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kayle_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kayleTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kayle_desc"
+                app:srcCompat="@drawable/kayle_square" />
+
+            <TextView
+                android:id="@+id/kaynTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kayn_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kaynTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kayn_desc"
+                app:srcCompat="@drawable/kayn_square" />
+
+            <TextView
+                android:id="@+id/kennenTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kennen_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kennenTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kennen_desc"
+                app:srcCompat="@drawable/kennen_square" />
+
+            <TextView
+                android:id="@+id/khazixTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khazix_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/khazixTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/khazix_desc"
+                app:srcCompat="@drawable/khazix_square" />
+
+            <TextView
+                android:id="@+id/kindredTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kindred_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kindredTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kindred_desc"
+                app:srcCompat="@drawable/kindred_square" />
+
+            <TextView
+                android:id="@+id/kledTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kled_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kledTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kled_desc"
+                app:srcCompat="@drawable/kled_square" />
+
+            <TextView
+                android:id="@+id/kogmawTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kogmaw_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/kogmawTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/kogmaw_desc"
+                app:srcCompat="@drawable/kogmaw_square" />
+
+            <TextView
+                android:id="@+id/leblancTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leblanc_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/leblancTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/leblanc_desc"
+                app:srcCompat="@drawable/leblanc_square" />
+
+            <TextView
+                android:id="@+id/leesinTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leesin_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/leesinTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/leesin_desc"
+                app:srcCompat="@drawable/leesin_square" />
+
+            <TextView
+                android:id="@+id/leonaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leona_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/leonaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/leona_desc"
+                app:srcCompat="@drawable/leona_square" />
+
+            <TextView
+                android:id="@+id/lissandraTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lissandra_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/lissandraTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/lissandra_desc"
+                app:srcCompat="@drawable/lissandra_square" />
+
+            <TextView
+                android:id="@+id/lucianTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lucian_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/lucianTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/lucian_desc"
+                app:srcCompat="@drawable/lucian_square" />
+
+            <TextView
+                android:id="@+id/luluTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lulu_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/luluTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/lulu_desc"
+                app:srcCompat="@drawable/lulu_square" />
+
+            <TextView
+                android:id="@+id/luxTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lux_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/luxTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/lux_desc"
+                app:srcCompat="@drawable/lux_square" />
+
+            <TextView
+                android:id="@+id/malphiteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/malphite_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/malphiteTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/malphite_desc"
+                app:srcCompat="@drawable/malphite_square" />
+
+            <TextView
+                android:id="@+id/malzaharTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/malzahar_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/malzaharTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/malzahar_desc"
+                app:srcCompat="@drawable/malzahar_square" />
+
+            <TextView
+                android:id="@+id/maokaiTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/maokai_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/maokaiTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/maokai_desc"
+                app:srcCompat="@drawable/maokai_square" />
+
+            <TextView
+                android:id="@+id/masteryiTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/masteryi_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/masteryiTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/masteryi_desc"
+                app:srcCompat="@drawable/masteryi_square" />
+
+            <TextView
+                android:id="@+id/missfortuneTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/missfortune_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/missfortuneTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/missfortune_desc"
+                app:srcCompat="@drawable/missfortune_square" />
+
+            <TextView
+                android:id="@+id/mordekaiserTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mordekaiser_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/mordekaiserTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/mordekaiser_desc"
+                app:srcCompat="@drawable/mordekaiser_square" />
+
+            <TextView
+                android:id="@+id/morganaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/morgana_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/morganaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/morgana_desc"
+                app:srcCompat="@drawable/morgana_square" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.widget.RelativeLayout>

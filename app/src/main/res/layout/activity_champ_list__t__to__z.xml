@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaysonlinhaychiu.uniprojectdraft2.ChampList_T_To_Z">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/infoClickTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/click_info"
+                android:textAlignment="center" />
+
+
+
+            <TextView
+                android:id="@+id/tahmkenchTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tahmkench_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/tahmkenchTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tahmkench_desc"
+                app:srcCompat="@drawable/tahmkench_square" />
+
+            <TextView
+                android:id="@+id/taliyahTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/taliyah_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/taliyahTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/taliyah_desc"
+                app:srcCompat="@drawable/taliyah_square" />
+
+            <TextView
+                android:id="@+id/talonTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/talon_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/talonTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/talon_desc"
+                app:srcCompat="@drawable/talon_square" />
+
+            <TextView
+                android:id="@+id/taricTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/taric_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/taricTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/taric_desc"
+                app:srcCompat="@drawable/taric_square" />
+
+            <TextView
+                android:id="@+id/teemoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/teemo_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/teemoTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/teemo_desc"
+                app:srcCompat="@drawable/teemo_square" />
+
+            <TextView
+                android:id="@+id/threshTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thresh_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/threshTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/thresh_desc"
+                app:srcCompat="@drawable/thresh_square" />
+
+            <TextView
+                android:id="@+id/tristanaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tristana_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/tristanaTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tristana_desc"
+                app:srcCompat="@drawable/tristana_square" />
+
+            <TextView
+                android:id="@+id/trundleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trundle_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/trundleTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/trundle_desc"
+                app:srcCompat="@drawable/trundle_square" />
+
+            <TextView
+                android:id="@+id/tryndamereTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tryndamere_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/tryndamereTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tryndamere_desc"
+                app:srcCompat="@drawable/tryndamere_square" />
+
+            <TextView
+                android:id="@+id/twistedfateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/twistedfate_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/twistedfateTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/twistedfate_desc"
+                app:srcCompat="@drawable/twistedfate_square" />
+
+            <TextView
+                android:id="@+id/twitchTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/twitch_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/twitchTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/twitch_desc"
+                app:srcCompat="@drawable/twitch_square" />
+
+            <TextView
+                android:id="@+id/udyrTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/udyr_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/udyrTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/udyr_desc"
+                app:srcCompat="@drawable/udyr_square" />
+
+            <TextView
+                android:id="@+id/urgotTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/urgot_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/urgotTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/urgot_desc"
+                app:srcCompat="@drawable/urgot_square" />
+
+            <TextView
+                android:id="@+id/varusTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/varus_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/varusTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/varus_desc"
+                app:srcCompat="@drawable/varus_square" />
+
+            <TextView
+                android:id="@+id/vayneTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vayne_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/vayneTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/vayne_desc"
+                app:srcCompat="@drawable/vayne_square" />
+
+            <TextView
+                android:id="@+id/TveigarextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/veigar_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/veigarTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/veigar_desc"
+                app:srcCompat="@drawable/veigar_square" />
+
+            <TextView
+                android:id="@+id/velkozTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/velkoz_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/velkozTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/velkoz_desc"
+                app:srcCompat="@drawable/velkoz_square" />
+
+            <TextView
+                android:id="@+id/viTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vi_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/viTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/vi_desc"
+                app:srcCompat="@drawable/vi_square" />
+
+            <TextView
+                android:id="@+id/viktorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/viktor_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/viktorTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/viktor_desc"
+                app:srcCompat="@drawable/viktor_square" />
+
+            <TextView
+                android:id="@+id/vladimirTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vladimir_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/vladimirTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/vladimir_desc"
+                app:srcCompat="@drawable/vladimir_square" />
+
+            <TextView
+                android:id="@+id/volibearTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volibear_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/volibearTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/volibear_desc"
+                app:srcCompat="@drawable/volibear_square" />
+
+            <TextView
+                android:id="@+id/warwickTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/warwick_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/warwickTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/warwick_desc"
+                app:srcCompat="@drawable/warwick_square" />
+
+            <TextView
+                android:id="@+id/wukongTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wukong_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/wukongTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/wukong_desc"
+                app:srcCompat="@drawable/wukong_square" />
+
+            <TextView
+                android:id="@+id/xayahTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/xayah_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/xayahTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/xayah_desc"
+                app:srcCompat="@drawable/xayah_square" />
+
+            <TextView
+                android:id="@+id/xerathTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/xerath_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/xerathTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/xerath_desc"
+                app:srcCompat="@drawable/xerath_square" />
+
+            <TextView
+                android:id="@+id/xinzhaoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/xinzhao_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/xinzhaoTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/xinzhao_desc"
+                app:srcCompat="@drawable/xinzhao_square" />
+
+            <TextView
+                android:id="@+id/yasuoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yasuo_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/yasuoTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/yasuo_desc"
+                app:srcCompat="@drawable/yasuo_square" />
+
+            <TextView
+                android:id="@+id/yorickTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yorick_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/yorickTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/yorick_desc"
+                app:srcCompat="@drawable/yorick_square" />
+
+            <TextView
+                android:id="@+id/zacTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zac_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/zacTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/zac_desc"
+                app:srcCompat="@drawable/zac_square" />
+
+            <TextView
+                android:id="@+id/zedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zed_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/zedTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/zed_desc"
+                app:srcCompat="@drawable/zed_square" />
+
+            <TextView
+                android:id="@+id/ziggsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ziggs_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/ziggsTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ziggs_desc"
+                app:srcCompat="@drawable/ziggs_square" />
+
+            <TextView
+                android:id="@+id/zileanTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zilean_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/zileanTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/zilean_desc"
+                app:srcCompat="@drawable/zilean_square" />
+
+            <TextView
+                android:id="@+id/zoeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zoe_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/zoeTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/zoe_desc"
+                app:srcCompat="@drawable/zoe_square" />
+
+            <TextView
+                android:id="@+id/zyraTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zyra_title"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/zyraTipsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/zyra_desc"
+                app:srcCompat="@drawable/zyra_square" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.widget.RelativeLayout>

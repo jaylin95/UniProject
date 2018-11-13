@@ -1,0 +1,128 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Light;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red239\green239\blue239;\red0\green0\blue0;
+\red239\green239\blue239;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c94902\c94902\c94902;\cssrgb\c0\c0\c0;
+\cssrgb\c94902\c94902\c94902;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 JSON\
+\
+Champions
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+	- Api Endpoint {\field{\*\fldinst{HYPERLINK "https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionList"}}{\fldrslt \ul /lol/static-data/v3/champions}}\
+	- Filters?
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+	- ID\
+	- Stats\
+	- Name\
+	- Title\
+	- Image\
+\
+	cs = JSON[\'91champions\'92]\
+	cs[\'91id\'92] :: Champion\
+\
+Champion
+\f1\fs28 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf4 	- Api Endpoint {\field{\*\fldinst{HYPERLINK "https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionList"}}{\fldrslt \ul /lol/static-data/v3/champions}}\ul /\{id\}
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \ulnone \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	- Filters?\
+	- ID\
+	- Use Champions output, or this end point\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+	c = JSON\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+Summoner\
+	- API Endpoint {\field{\*\fldinst{HYPERLINK "https://developer.riotgames.com/api-methods/#summoner-v3/GET_getBySummonerName"}}{\fldrslt 
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 /lol/summoner/v3/summoners/by-name/\{summonerName\}}}\
+	- ID\
+	- Name\
+	- Level\
+	- ProfileIcon\
+\
+League\
+	- Api Endpoint {\field{\*\fldinst{HYPERLINK "https://developer.riotgames.com/api-methods/#league-v3/GET_getAllLeaguePositionsForSummoner"}}{\fldrslt 
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 /lol/league/v3/positions/by-summoner/\{summonerId\}}}\
+	- Summoner iD\
+	- Rank\
+	- Wins\
+	- Loosees\
+	- \'85\
+\
+Parameters = [\
+	\'91key\'92 => \'91value\'92\
+]\
+\
+\
+Class LoLAPI \{\
+\
+	CONST server = \'91developer.riot\'85\'92\
+	CONST apiversion = \'91v3\'92\
+	CONST appikey = \'91\'85\'92\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+	GetSummoner(ID) \{\
+		return GetCached(\'91{\field{\*\fldinst{HYPERLINK "https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionList"}}{\fldrslt 
+\f1\fs28 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\ul \ulc4 /lol/static-data/\'91+apiversion+\'92/champions}}
+\f1\fs28 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\ul \ulc4 /
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \ulnone \'92 + ID, null, \'91Champions\'92)\
+	\}\
+\
+	GetChampions(Filters) \{\
+		Parameters = []\
+		Merge(Parameters, Filters)\
+		return GetCached(\'91{\field{\*\fldinst{HYPERLINK "https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionList"}}{\fldrslt 
+\f1\fs28 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\ul \ulc4 /lol/static-data/\'91+apiversion+\'92/champions}}\'92, Parameters, \'91Champions\'92)\
+	\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+	GetCached(EndPoint, Parameters, CacheName, Time = 24h, Refresh = false) \{\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 		if exists cache CacheName && !Refresh\
+			return cache CacheName\
+		else\
+			output = CallAPI(EndPoint, Parameters)\
+\
+			cache CacheName output Time\
+\
+			return output\
+		endif\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	\}\
+	\
+	CallAPI (EndPoint, Parameters) \{\
+		Parameters[\'91apikey\'92] = this.apikey\
+\
+		EnPoint = server + EndPoint\
+\
+		output = from HTTP GET Call to EndPoint with Parameters\
+\
+		output = jsonformat output\
+\
+		Return output \
+	\}\
+\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

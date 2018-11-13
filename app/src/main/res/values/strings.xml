@@ -1,0 +1,1650 @@
+<resources>
+    <string name="app_name">UniProjectDraft2</string>
+
+    <string-array name="regions">
+        <item>EUW</item>
+        <item>NA</item>
+        <item>KR</item>
+    </string-array>
+
+    //Titles and headings
+    <string name="app_title">App Title</string>
+    <string name="list_of_champs">List of champs</string>
+
+    //Instructions/information
+    <string name="click_info">Please click on champion icon for tips and tricks</string>
+
+    //Champion titles and descriptions
+    <string name="aatrox_title">Aatrox the Darkin Blade</string>
+    <string name="aatrox_desc">Aatrox</string>
+    <string name="ahri_title">Ahri the Nine-Tailed Fox</string>
+    <string name="ahri_desc">Ahri</string>
+    <string name="akali_title">Akali the Fist of Shadow</string>
+    <string name="akali_desc">Akali</string>
+    <string name="alistar_title">Alistar the Minotaur</string>
+    <string name="alistar_desc">Alistar</string>
+    <string name="amumu_title">Amumu the Sad Mummy</string>
+    <string name="amumu_desc">Amumu</string>
+    <string name="anivia_title">Anivia the Cyrophoenix</string>
+    <string name="anivia_desc">Anivia</string>
+    <string name="annie_title">Annie the Dark Child</string>
+    <string name="annie_desc">Annie</string>
+    <string name="ashe_title">Ashe the Frost Archer</string>
+    <string name="ashe_desc">Ashe</string>
+    <string name="aurelion_sol_title">Aurelion Sol the Star Forger</string>
+    <string name="aurelion_desc">Aurelion</string>
+    <string name="azir_title">Azir the Emperor of the Sands</string>
+    <string name="azir_desc">Azir</string>
+    <string name="bard_title">Bard the Wandering Caretaker</string>
+    <string name="bard_desc">Bard</string>
+    <string name="blitzcrank_title">Blitzcrank the Great Steam Golem</string>
+    <string name="blitzcrank_desc">Blitzcrank</string>
+    <string name="brand_title">Brand the Burning Vengeance</string>
+    <string name="brand_desc">Brand</string>
+    <string name="braum_title">Braum the Heart of the Freljord</string>
+    <string name="braum_desc">braum</string>
+    <string name="caitlyn_title">Caitlyn the Sheriff of Piltover</string>
+    <string name="caitlyn_desc">Caitlyn</string>
+    <string name="camille_title">Camille the Steel Shadow</string>
+    <string name="camille_desc">Camille</string>
+    <string name="cassiopeia_title">Cassiopeia the Serpent\'s Embrace</string>
+    <string name="cassiopeia_desc">Cassiopeia</string>
+    <string name="cho_gath_title">Cho\'gath the Terror of the Void</string>
+    <string name="cho_gath_desc">Cho\'gath</string>
+    <string name="corki_title">Corki the Daring Bombardier</string>
+    <string name="corki_desc">Corki</string>
+    <string name="darius_title">Darius the Hand of Noxus</string>
+    <string name="darius_desc">Darius</string>
+    <string name="diana_title">Diana, Scorn of the Moon</string>
+    <string name="diana_desc">Diana</string>
+    <string name="dr_mundo_title">Dr. Mundo the Madman of Zaun</string>
+    <string name="drmundo_desc">drmundo</string>
+    <string name="draven_title">Draven the Glorious Executioner</string>
+    <string name="draven_desc">Draven</string>
+    <string name="ekko_title">Ekko the Boy Who Shattered Time</string>
+    <string name="ekko_desc">Ekko</string>
+    <string name="elise_title">Elise the Spider Queen</string>
+    <string name="elise_desc">Elise</string>
+    <string name="evelynn_title">Evelynn, Agony\'s Embrace</string>
+    <string name="evelynn_desc">Evelynn</string>
+    <string name="ezreal_title">Ezreal the Prodigal Explorer</string>
+    <string name="ezreal_desc">Ezreal</string>
+    <string name="fiddlesticks_title">Fiddlesticks the Harbinger of Doom</string>
+    <string name="fiddlesticks_desc">Fiddlesticks</string>
+    <string name="fiora_title">Fiora the Grand Duelist</string>
+    <string name="fiora_desc">Fiora</string>
+    <string name="fizz_title">Fizz the Tidal Trickster</string>
+    <string name="fizz_desc">Fizz</string>
+    <string name="galio_title">Galio the Colossus</string>
+    <string name="galio_desc">Galio</string>
+    <string name="gangplank_title">Gangplank the Saltwater Scourge</string>
+    <string name="gangplank_desc">gangplank</string>
+    <string name="garen_title">Garen the Might of Demacia</string>
+    <string name="garen_desc">Garen</string>
+    <string name="gnar_title">Gnar the Missing Link</string>
+    <string name="gnar_desc">Gnar</string>
+    <string name="gragas_title">Gragas the Rabble Rouser</string>
+    <string name="gragas_desc">Gragas</string>
+    <string name="graves_title">Graves the Outlaw</string>
+    <string name="graves_desc">Graves</string>
+    <string name="hecarim_title">Hecarim the Shadow of War</string>
+    <string name="hecarim_desc">Hecarim</string>
+    <string name="heimerdinger_title">Heimerdinger the Revered Inventor</string>
+    <string name="heimerdinger_desc">Heimerdinger</string>
+    <string name="illaoi_title">Illaoi the Kraken Priestess</string>
+    <string name="illaoi_desc">Illaoi</string>
+    <string name="irelia_title">Irelia the Blade Dancer</string>
+    <string name="irelia_desc">Irelia</string>
+    <string name="ivern_title">Ivern the Green Father</string>
+    <string name="ivern_desc">Ivern</string>
+    <string name="janna_title">Janna the Storm\'s Fury</string>
+    <string name="janna_desc">Janna</string>
+    <string name="jarvan_title">Jarvan IV the Exemplar of Demacia</string>
+    <string name="jarvan_desc">Jarvan</string>
+    <string name="jax_title">Jax, Grandmaster at Arms</string>
+    <string name="jax_desc">Jax</string>
+    <string name="jayce_title">Jayce the Defender of Tomorrow</string>
+    <string name="jayce_desc">Jayce</string>
+    <string name="jhin_title">Jhin the Virtuoso</string>
+    <string name="jhin_desc">Jhin</string>
+    <string name="jinx_title">Jinx the Loose Cannon</string>
+    <string name="jinx_desc">Jinx</string>
+    <string name="kaisa_title">Kai\'Sa, Daughter of the Void</string>
+    <string name="kaisa_desc">Kai\'Sa</string>
+    <string name="kalista_title">Kalista the Spear of Vengeance</string>
+    <string name="kalista_desc">Kalista</string>
+    <string name="karma_title">Karma the Enlightened One</string>
+    <string name="karma_desc">Karma</string>
+    <string name="karthus_title">Karthus the Deathsinger</string>
+    <string name="karthus_desc">Karthus</string>
+    <string name="kassadin_title">Kassadin the Void Walker</string>
+    <string name="kassadin_desc">Kassadin</string>
+    <string name="katarina_title">Katarina the Sinister Blade</string>
+    <string name="katarina_desc">Katarina</string>
+    <string name="kayle_title">Kayle the Judicator</string>
+    <string name="kayle_desc">Kayle</string>
+    <string name="kayn_title">Kayn the Shadow Reaper</string>
+    <string name="kayn_desc">Kayn</string>
+    <string name="kennen_title">Kennen the Heart of the Tempest</string>
+    <string name="kennen_desc">Kennen</string>
+    <string name="khazix_title">Kha\'Zix the Voidreaver</string>
+    <string name="khazix_desc">Kha\'Zix</string>
+    <string name="kindred_title">Kindred the Eternal Hunters</string>
+    <string name="kindred_desc">Kindred</string>
+    <string name="kled_title">Kled the Cantankerous Cavalier</string>
+    <string name="kled_desc">Kled</string>
+    <string name="kogmaw_title">Kog\'Maw the Mouth of the Abyss</string>
+    <string name="kogmaw_desc">Kog\'Maw</string>
+    <string name="leblanc_title">LeBlanc the Deceiver</string>
+    <string name="leblanc_desc">Leblanc</string>
+    <string name="leesin_title">Lee Sin the Blind Monk</string>
+    <string name="leesin_desc">Lee Sin</string>
+    <string name="leona_title">Leona the Radiant Dawn</string>
+    <string name="leona_desc">Leona</string>
+    <string name="lissandra_title">Lissandra the Ice Witch</string>
+    <string name="lissandra_desc">Lissandra</string>
+    <string name="lucian_title">Lucian the Purifier</string>
+    <string name="lucian_desc">Lucian</string>
+    <string name="lulu_title">Lulu the Fae Sorceress</string>
+    <string name="lulu_desc">Lulu</string>
+    <string name="lux_title">Lux the Lady of Luminosity</string>
+    <string name="lux_desc">Lux</string>
+    <string name="malphite_title">Malphite, Shard of the Monolith</string>
+    <string name="malphite_desc">Malphite</string>
+    <string name="malzahar_title">Malzahar the Prophet of the Void</string>
+    <string name="malzahar_desc">Malzahar</string>
+    <string name="maokai_title">Maokai the Twisted Treant</string>
+    <string name="maokai_desc">Maokai</string>
+    <string name="masteryi_title">Master Yi the Wuju Bladesman</string>
+    <string name="masteryi_desc">Master Yi</string>
+    <string name="missfortune_title">Miss Fortune the Bounty Hunter</string>
+    <string name="missfortune_desc">Miss Fortune</string>
+    <string name="mordekaiser_title">Mordekaiser the Iron Revenant</string>
+    <string name="mordekaiser_desc">Mordekaiser</string>
+    <string name="morgana_title">Morgana, Fallen Angel</string>
+    <string name="morgana_desc">Morgana</string>
+    <string name="nami_title">Nami the Tidecaller</string>
+    <string name="nami_desc">Nami</string>
+    <string name="nasus_title">Nasus the Curator of the Sands</string>
+    <string name="nasus_desc">Nasus</string>
+    <string name="nautilus_title">Nautilus the Titan of the Depths</string>
+    <string name="nautilus_desc">Nautilus</string>
+    <string name="nidalee_title">Nidalee the Bestial Huntress</string>
+    <string name="nidalee_desc">Nidalee</string>
+    <string name="nocturne_title">Nocturne the Eternal Nightmare</string>
+    <string name="nocturne_desc">Nocturne</string>
+    <string name="nunu_title">Nunu the Yeti Rider</string>
+    <string name="nunu_desc">Nunu</string>
+    <string name="olaf_title">Olaf the Berserker</string>
+    <string name="olaf_desc">Olaf</string>
+    <string name="orianna_title">Orianna the Lady of Clockwork</string>
+    <string name="orianna_desc">Orianna</string>
+    <string name="ornn_title">Ornn the Fire Below The Mountain</string>
+    <string name="ornn_desc">Ornn</string>
+    <string name="pantheon_title">Pantheon the Artisan of War</string>
+    <string name="pantheon_desc">Pantheon</string>
+    <string name="poppy_title">Poppy, Keeper of the Hammer</string>
+    <string name="poppy_desc">Poppy</string>
+    <string name="quinn_title">Quinn, Demacia\'s Wings</string>
+    <string name="quinn_desc">Quinn</string>
+    <string name="rakan_title">Rakan the Charmer</string>
+    <string name="rakan_desc">Rakan</string>
+    <string name="rammus_title">Rammus the Armordillo</string>
+    <string name="rammus_desc">Rammus</string>
+    <string name="reksai_title">Rek\'Sai the Void Burrower</string>
+    <string name="reksai_desc">Rek\'Sai</string>
+    <string name="renekton_title">Renekton the Butcher of the Sands</string>
+    <string name="renekton_desc">Renekton</string>
+    <string name="rengar_title">Rengar the Pridestalker</string>
+    <string name="rengar_desc">Rengar</string>
+    <string name="riven_title">Riven the Exile</string>
+    <string name="riven_desc">Riven</string>
+    <string name="rumble_title">Rumble the Mechanized Menace</string>
+    <string name="rumble_desc">Rumble</string>
+    <string name="ryze_title">Ryze the Rune Mage</string>
+    <string name="ryze_desc">Ryze</string>
+    <string name="sejuani_title">Sejuani, Fury of the North</string>
+    <string name="sejuani_desc">Sejuani</string>
+    <string name="shaco_title">Shaco the Demon Jester</string>
+    <string name="shaco_desc">Shaco</string>
+    <string name="shen_title">Shen the Eye of Twilight</string>
+    <string name="shen_desc">Shen</string>
+    <string name="shyvana_title">Shyvana the Half-Dragon</string>
+    <string name="shyvana_desc">Shyvana</string>
+    <string name="singed_title">Singed the Mad Chemist</string>
+    <string name="singed_desc">Singed</string>
+    <string name="sion_title">Sion the Undead Juggernaut</string>
+    <string name="sion_desc">Sion</string>
+    <string name="sivir_title">Sivir the Battle Mistress</string>
+    <string name="sivir_desc">Sivir</string>
+    <string name="skarner_title">Skarner the Crystal Vanguard</string>
+    <string name="skarner_desc">Skarner</string>
+    <string name="sona_title">Sona, Maven of the Strings</string>
+    <string name="sona_desc">Sona</string>
+    <string name="soraka_title">Soraka the Starchild</string>
+    <string name="soraka_desc">Soraka</string>
+    <string name="swain_title">Swain the Noxian Grand General</string>
+    <string name="swain_desc">Swain</string>
+    <string name="syndra_title">Syndra the Dark Sovereign</string>
+    <string name="syndra_desc">Syndra</string>
+    <string name="tahmkench_title">Tahm Kench the River King</string>
+    <string name="tahmkench_desc">Tahm Kench</string>
+    <string name="taliyah_title">Taliyah the Stoneweaver</string>
+    <string name="taliyah_desc">Taliyah</string>
+    <string name="talon_title">Talon the Blade\'s Shadow</string>
+    <string name="talon_desc">Talon</string>
+    <string name="taric_title">Taric the Shield of Valoran</string>
+    <string name="taric_desc">Taric</string>
+    <string name="teemo_title">Teemo the Swift Scout</string>
+    <string name="teemo_desc">Teemo</string>
+    <string name="thresh_title">Thresh the Chain Warden</string>
+    <string name="thresh_desc">Thresh</string>
+    <string name="tristana_title">Tristana the Yordle Gunner</string>
+    <string name="tristana_desc">Tristana</string>
+    <string name="trundle_title">Trundle the Troll King</string>
+    <string name="trundle_desc">Trundle</string>
+    <string name="tryndamere_title">Tryndamere the Barbarian King</string>
+    <string name="tryndamere_desc">Tryndamere</string>
+    <string name="twistedfate_title">Twisted Fate the Card Master</string>
+    <string name="twistedfate_desc">Twisted Fate</string>
+    <string name="twitch_title">Twitch the Plague Rat</string>
+    <string name="twitch_desc">Twitch</string>
+    <string name="udyr_title">Udyr the Spirit Walker</string>
+    <string name="udyr_desc">Udyr</string>
+    <string name="urgot_title">Urgot the Dreadnought</string>
+    <string name="urgot_desc">Urgot</string>
+    <string name="varus_title">Varus the Arrow of Retribution</string>
+    <string name="varus_desc">Varus</string>
+    <string name="vayne_title">Vayne the Night Hunter</string>
+    <string name="vayne_desc">Vayne</string>
+    <string name="veigar_title">Veigar the Tiny Master of Evil</string>
+    <string name="veigar_desc">Veigar</string>
+    <string name="velkoz_title">Vel\'Koz the Eye of the Void</string>
+    <string name="velkoz_desc">Vel\'Koz</string>
+    <string name="vi_title">Vi the Piltover Enforcer</string>
+    <string name="vi_desc">Vi</string>
+    <string name="viktor_title">Viktor the Machine Herald</string>
+    <string name="viktor_desc">Viktor</string>
+    <string name="vladimir_title">Vladimir the Crimson Reaper</string>
+    <string name="vladimir_desc">Vladimir</string>
+    <string name="volibear_title">Volibear the Thunder\'s Roar</string>
+    <string name="volibear_desc">Volibear</string>
+    <string name="warwick_title">Warwick the Uncaged Wrath of Zaun</string>
+    <string name="warwick_desc">Warwick</string>
+    <string name="wukong_title">Wukong the Monkey King</string>
+    <string name="wukong_desc">Wukong</string>
+    <string name="xayah_title">Xayah the Rebel</string>
+    <string name="xayah_desc">Xayah</string>
+    <string name="xerath_title">Xerath the Magus Ascendant</string>
+    <string name="xerath_desc">Xerath</string>
+    <string name="xinzhao_title">Xin Zhao the Seneschal of Demacia</string>
+    <string name="xinzhao_desc">Xin Zhao</string>
+    <string name="yasuo_title">Yasuo the Unforgiven</string>
+    <string name="yasuo_desc">Yasuo</string>
+    <string name="yorick_title">Yorick, Shepherd of Souls</string>
+    <string name="yorick_desc">Yorick</string>
+    <string name="zac_title">Zac the Secret Weapon</string>
+    <string name="zac_desc">Zac</string>
+    <string name="zed_title">Zed the Master of Shadows</string>
+    <string name="zed_desc">Zed</string>
+    <string name="ziggs_title">Ziggs the Hexplosives Expert</string>
+    <string name="ziggs_desc">Ziggs</string>
+    <string name="zilean_title">Zilean the Chronokeeper</string>
+    <string name="zilean_desc">Zilean</string>
+    <string name="zoe_title">Zoe the Aspect of Twilight</string>
+    <string name="zoe_desc">Zoe</string>
+    <string name="zyra_title">Zyra, Rise of the Thorns</string>
+    <string name="zyra_desc">Zyra</string>
+
+    //Individual Champion tips and tricks
+    //Individual Champion tips and tricks
+    <string name="aatrox_tips">
+        - Be wary of his Q (Dark Flight) which knocks up targets, it is a fast ability but can be easily avoided by using a dash/blink ability.
+        \n
+        \n
+        - Watch out for his passive, as he can revive after death once (look out for a white ring around him).
+    </string>
+    <string name="ahri_tips">
+        - Her only CC is her E (Charm) which is the main ability you must dodge otherwise she will follow up with her Q (Orb of Deception)
+        \n
+        \n
+        - Cleansable abilities: E.
+        \n
+        \n
+        - She is very capable of roaming post 6 so keep in mind if she is missing from the mid lane.
+    </string>
+    <string name="akali_tips">
+        - Akali pre-6 is not much threat so take advantage of this with your jungle.
+        \n
+        \n
+        - Akali upon hitting 6 learning her ultimate (Shadow Dance) will immediately grant her 3 stacks allowing her a window of all in, be careful when she is about to hit 6.
+        \n
+        \n
+        - Akali regains a stack of Shadow Dance immediately if she receives a kill or assist so keep that in mind and try to track how many stacks she has.
+    </string>
+    <string name="alistar_tips">
+        - Alistar’s level 2 power spike, Q (Pulverize) and W (Headbutt) is one of the strongest for all ins, if their bot lane is about to hit level 2 first then backup and deny him the oppurtunity.
+        \n
+        \n
+        - Once Alistar’s Q+W is down, he has no presence in lane for roughly 15-10 seconds, cool down for Q ranges from 17-13 seconds whereas cool down for W ranges from 14-10 seconds.
+        \n
+        \n
+        - Alistar’s E (Trample) will stun you with an auto attack from 5 stacks, you can see this as there is a visual indicator for each stack.
+        \n
+        \n
+        - Upon hitting 6 and learning his ultimate (Unbreakable Will), Alistar can tower dive with ease, keep this in mind when you sense a possible dive from the enemy team.
+        \n
+        \n
+        - Tracking Alistars flash is extremely important as he can flash pulverise or flash Q+W combo.
+    </string>
+    <string name="amumu_tips">
+        - Amumu’s Q (Bandage Toss) has a range of 1100 units and cool down ranges from 16-8.
+        \n
+        \n
+        - Amumus usually does not max Q, therefore his pre 6 ganks are not that effective if you manage to dodge his Q.
+        \n
+        \n
+        - Post 6 upon learning his ultimate (Curse of the Sad Mummy) his ganks become much stronger with an AOE entangle.
+        \n
+        \n
+        - Tracking Amumus flash is extremely important as he can flash ult catching you off guard.
+        \n
+        \n
+        - Ult radius is 550.
+        \n
+        \n
+        - Cleansable abilities: Q, R.
+    </string>
+    <string name="anivia_tips">
+        - Do not underestimate the damage of Anivia’s E (Frostbite) once you have been hit by her Q (Flash Frost) and/or R (Glacial Storm).
+        \n
+        \n
+        - Anivia’s E (Crystallize) can easily catch you off guard so it is worth tracking the cool down of it.
+        \n
+        \n
+        - Track Anivia’s passive (Rebirth) which has a cool down of 4 minutes.
+        \n
+        \n
+        - Cleansable abilities: Q.
+    </string>
+    <string name="annie_tips">
+        - Her passive (Pyromania) has a visual indicator for when it is active.
+        \n
+        \n
+        - Cleansable abilities: Q, W , R (If passive is active)
+        \n
+        \n
+        - Annie has a lot of burst so pay close attention to her passive.
+        \n
+        \n
+        - Tracking Annies flash is extremely important as she can flash ult and burst you down.
+        \n
+        \n
+        - Ult range is 600.
+    </string>
+    <string name="ashe_tips">
+        - Staying behind minions in lane can allow you to avoid damage from her W (Volley).
+        \n
+        \n
+        - You have a small window to trade once her W is down, cool down ranges from 15-5 seconds.
+        \n
+        \n
+        - Once Ashe is 6 and learns her ultimate (Enchanted Crystal Arrow) she is able to hard initiate, be careful when she is about to hit 6.
+        \n
+        \n
+        - Cleansable abilities: R.
+    </string>
+    <string name="aurelion_tips">
+        - Aurelion Sol is capable of an effective roam as early as level 2, watch your minimal more than usual as he can single handedly win the enemies lane early on.
+        \n
+        \n
+        - Cleansable abilities: Q (Starsurge).
+        \n
+        \n
+        - All of Aurelion Sol’s skills are dodge able, early boots may be a good idea when playing against him.
+    </string>
+    <string name="azir_tips">
+        - Azir’s ultimate (Emperor’s Divide) can interrupt any in-progress dashes during the charge, so either use your dashs before he lets or after.
+        \n
+        \n
+        - Be careful when diving Azir near destroyed turrets as he can create a turret with his passive (Shurima’s Legacy).
+        \n
+        \n
+        - Azir is capable of a long range initiate with the use of his E (Shifting sands), Q (Conquering Sands) and flash and R.
+    </string>
+    <string name="bard_tips">
+        - Bard does a lot of damage level 1 with his basic auto attacks so avoid trading with him at level 1.
+        \n
+        \n
+        - Be careful when standing next to ally minions or terrain as Bard can Q (Cosmic Binding) you for a stun.
+        \n
+        \n
+        - When Bard is missing he can be setting up a gank with the use of his E (Magical Journey) or he can be roaming, pay close attention when he is missing from the minimap.
+        \n
+        \n
+        - Cleansable abilities: Q.
+    </string>
+    <string name="blitzcrank_tips">
+        - Blitzcrank is known for his level 1 invade so make sure as a team you protect the entrances to your jungle.
+        \n
+        \n
+        - Once Blitzcranks Q (Rocket Grab) is down, he loses a lot of presence, this is a good opportunity to trade and/or zone.
+        \n
+        \n
+        - His Qs cool down is 20 seconds at level 1 and is 16 seconds cool down when maxed.
+        \n
+        \n
+        - If you see a Blitzcrank running towards you with his W (Overdrive) on, it could be an indication of an incoming gank so be observant.
+    </string>
+    <string name="brand_tips">
+        - When playing against Brand, you would want to be careful of his W (Pillar of Flame) as it has quite a large radius of 250.
+        \n
+        \n
+        - His Q (Sear) will stun you if hit by any of his other abilities beforehand so this should be the main ability to prioritise dodging.
+        \n
+        \n
+        - Cleansable abilities: Q.
+        \n
+        \n
+        - In general it is a good idea to spread out during skirmishes/teamfights against most of his abilities are able to cause a lot of AOE damage especially his ultimate (Pyroclasm).
+    </string>
+    <string name="braum_tips">
+        - Braum’s level 1 invade is relatively strong as his passive (Concussive blow) allows for easy stuns towards enemy team members.
+        \n
+        \n
+        - Braum’s W (Stand Behind Me) and E (Unbreakable) has relatively high cool downs early on (14 and 18 respectively) so use this window to create an advantage.
+        \n
+        \n
+        - Braum can catch you off guard by jumping to a minion and casting his Q or ultimate (Glacial Fissure).
+        \n
+        \n
+        - He cannot Q you through minions.
+        \n
+        \n
+        - A Braum can be really telegraphed when assisting in a gank so be mindful at all times.
+        \n
+        \n
+        - Cleansable abilities: Passive, Q.
+    </string>
+    <string name="caitlyn_tips">
+        - Caitlyn has extremely long range (650) and can harass you for free so going Doran’s shield as a starting item is a very viable choice along with going resolve as secondary tree.
+        \n
+        \n
+        - Be patient in the lining phase as you will often most likely be pushed in, CS under tower if you must and wait for jungle ganks.
+        \n
+        \n
+        - Save your dash skills for her Q (Piltover Peacemaker) to avoid getting poked down even further.
+        \n
+        \n
+        - Do your best to avoid traps (W Yordle Snap Trap), you may have to forfeit some CS to avoid taking free damage.
+        \n
+        \n
+        - When all inning Caitlyn, be aware of her E (90 Caliber Net) as it will activate her passive (Headshot) if hit and can return a surprising amount of damage back to you.
+        \n
+        \n
+        - Cleansable abilities: W, E.
+        \n
+        \n
+        - Her ultimate (Ace in the Hole) can be interrupted by hard CC.
+    </string>
+    <string name="camille_tips">
+        - Camille’s E (Hookshot) can catch you off guard from a long distance, be aware of this ability as you will most likely be in danger if hit by it.
+        \n
+        \n
+        - Camille passive (Adaptive Defenses) can bait you into thinking you can kill her as the shield depends of what type of damage you do to her.
+        \n
+        \n
+        - Camille’s ultimate (The Hextech Ultimatum) will interrupt your dashes trapping you in a hexagon, so save your dashes to dodge her W (Tactical Sweep) if you do get hit by the ultimate.
+        \n
+        \n
+        - Cleansable abilities: E.
+    </string>
+    <string name="cassiopeia_tips">
+        - Cassiopeia’s main ability for DPS is her E (Twin Fang), which is amplified if previously hit by her Q (Noxious Blast) and W (Miasma) which also grounds you, so be sure to track her W cool down which ranges from 18-14 seconds.
+        \n
+        \n
+        - Her ultimate (Petrifying Gaze) can singlehandedly turn a fight around, this ability is a priority to track, with a cool down ranging from 120-80 seconds.
+        \n
+        \n
+        - Moving your character back and forth can be effective to bait out or dodge Cassiopeia’s ultimate.
+        \n
+        \n
+        - Cleansable abilities: R.
+    </string>
+    <string name="chogath_tips">
+        - Cho’Gath’s Q (Rupture) is a strong ability to cause disturbance in team fights and is a strong form of CC, however it is easily dodge-able with enough movement speed and anticipation.
+        \n
+        \n
+        - Cho’Gath’s flash is an important ability to track as he can burst you with a flash R (Feast).
+        \n
+        \n
+        - It is a good idea to build health % damaging items against Cho’Gath as he naturally gains more HP due to Feast stacks.
+    </string>
+    <string name="corki_tips">
+        - Play close attention when Corki is missing from the minimap around the 8 minute map as he can gank any lane with the use of his passive (The Package).
+        \n
+        \n
+        - When Corki’s W (Valkyrie) is down he is more vulnerable so this is a good window to gank or catch him out.
+        \n
+        \n
+        - Do not underestimate a late game Corki’s damage as he can deal an insane amount through his auto attacks after sheen process.
+        \n
+        \n
+        - Save your dashes to use against his Q (Phosphorus Bomb).
+        \n
+        \n
+        - Pay attention to his ammo as when he has his Big one up it can deal a lot of damage.
+    </string>
+    <string name="darius_tips">
+        - Avoid long trades with Darius as his passive (Hemorrhage) causes you to take damage over time as well as him gaining bonus attack damage upon gaining max Hemorrhage stacks.
+        \n
+        \n
+        - When Darius uses his Q (Decimate) it is often a good idea to move towards him instead of away as the shaft of his axe will not apply Hemorrhage stacks nor will it heal him.
+        \n
+        \n
+        - Darius’s E (Apprehend) has a short range so it can be telegraphed if he flashes towards you.
+        \n
+        \n
+        - Darius can also flash while the animation of his Q is starting, so anticipate this well.
+    </string>
+    <string name="diana_tips">
+        - Due to the arc shape of Diana’s Q (Crescent Strike) it can be beneficial to dodge towards it instead of away, however judge this from the current situation you’re put in.
+        \n
+        \n
+        - If you successfully dodge her Q, then she will do considerably less damage as she will not be able to ult (Lunar Rush) in quick succession.
+        \n
+        \n
+        - Be careful of face checking bushes against Diana when she is missing from the minimap as she can burst you 100-0.
+        \n
+        \n
+        - Save your dashes/blinks to dodge her Q and R.
+    </string>
+    <string name="drmundo_tips">
+        - It is usually a good idea for a team to have at least one ignite against Dr.Mundo as his health regeneration from his passive (Adrenaline) and ultimate (Sadism) can make it difficult for him to be taken down.
+        \n
+        \n
+        - Building items which causes grievous wounds is also highly recommended to counter his health regeneration.
+        \n
+        \n
+        - Save your dashes/blinks to dodge his Q (Infected Cleaver) as once hit he will most likely be able to catch up to you.
+    </string>
+    <string name="draven_tips">
+        - Trading auto attacks with Draven is usually not a good idea as his Q (Spinning Axes) will out trade any other abc’s auto early.
+        \n
+        \n
+        - Track his axes, and if he drops his axes you can use it as an opportunity to trade/ all in.
+        \n
+        \n
+        - Draven can surprise you and chase down with his W (Blood rush) and E (Stand Aside) so be aware when pushing against him.
+        \n
+        \n
+        - It is a good idea to aim your skill shots at where Draven will drop his axe as he will likely move towards that spot to try catch his axe.
+    </string>
+    <string name="ekko_tips">
+        - Be wary of the passive stacks (Z-Drive Resonance) indicated by a ring around you, as he will do more damage and will gain movement speed once it procs.
+        \n
+        \n
+        - Pay attention to his Q (Timewinder) as it will travel backwards once it reaches it’s maximum distance.
+        \n
+        \n
+        - Avoid standing in his W (Parallel Convergence) if possible.
+        \n
+        \n
+        - Save dashes/blinks to avoid his Q and W.
+        \n
+        \n
+        - Keep close watch of Ekko’s hologram as this is an indication of his ultimate (Chronobreak) being up.
+        \n
+        \n
+        - Cleansable abilities: W (If Ekko is in sphere).
+    </string>
+    <string name="elise_tips">
+        - Elise is known for her early ganks so pay attention to which side she starts and anticipate ganks and ward early.
+        \n
+        \n
+        - Do not underestimate her early ganks as Elise has high base damages which allows her to build mobilities boots to get off more ganks early on.
+        \n
+        \n
+        - Keep track of her spider form W (Rappel) as it is her form of invulnerability, however it does have a high cool down ranging from 26-18 seconds.
+        \n
+        \n
+        - Keep track of her flash as Elise is known for her Flash E’s (Cocoon).
+        \n
+        \n
+        - Cleansable abilities: E.
+        \n
+        \n
+        - Save dashes/blinks for her E as if it hits, she can burst you for a lot of damage and/or kill you.
+    </string>
+    <string name="evelynn_tips">
+        - Be extremely aware when you are marked by her W (Allure) as she can charm you from range with her Q (Hate Spike).
+        \n
+        \n
+        - Save dashes/blinks for her Q.
+        \n
+        \n
+        - Cleansable abilities: All her abilities and auto’s if cursed.
+        \n
+        \n
+        - Staying close with your team will reduce the likelihood of you being picked off by Evelynn.
+    </string>
+    <string name="ezreal_tips">
+        - Ezreal cannot hit you with his Q (Mystic Shot) through minions, so when trading it can be beneficial to stay within you minion wave.
+        \n
+        \n
+        - Keep track of Ezreal’s E (Arcane Shift) as it being down will make Ezreal more vulnerable.
+        \n
+        \n
+        - Although Ezreal is most often seen as a poke champ, his burst should not be underestimated as he can deal a lot of damage within a short time span with the use of his ultimate (Trueshot Barrage).
+        \n
+        \n
+        - Be careful facechecking Ezreals as this means it will be easy skill shots for the enemy Ezreal.
+    </string>
+    <string name="fiddlesticks_tips">
+        - Stay away from ally units when Fiddlesticks casts his Q (Dark wind) as this will allow to bounce up to 5 times increasing his damage output.
+        \n
+        \n
+        - It is possible to interrupt Fiddlesticks E (Drain) with hard CC.
+        \n
+        \n
+        - Post 6, you must be wary of Fiddlesticks if he is unseen on the minimap due to his ultimate (Crowstorm), this especially applies to objectives such as when sieging turrets and playing around Dragon/Baron.
+        \n
+        \n
+        - Cleansable abilities: Q.
+    </string>
+    <string name="fiora_tips">
+        - Watch your characters’ model for Fiora’s passive (Duelist’s Dance) as if she hits you on side of your vital, you will take additional health% damage and this will heal Fiora whilst also granting her movement speed.
+        \n
+        \n
+        - A good strategy to this is hugging the wall/terrain against the vital spot on your character’s model.
+        \n
+        \n
+        - Fiora’s W (Riposte) is a strong skill as it allows her to be invulnerable to non-turret damage during it’s duration and can also immobilize you if it deflects an ability with an immobilising effect.
+        \n
+        \n
+        - If hit by Fiora’s W, you will be slowed and crippled, save your dashes/blinks for her W.
+        \n
+        \n
+        - Try to stay away from Fiora is she uses her ultimate (Grand Challenge) on you.
+    </string>
+    <string name="fizz_tips">
+        - Save your dashes against Fizz’s Q (Urchin Strike) as if dodged correctly, you will take no damage.
+        \n
+        \n
+        - Fizz’s Q has a range of 550.
+        \n
+        \n
+        - Keep track of Fizz’s E (Playful Trickster) and use this as an opportunity to take him down.
+        \n
+        \n
+        - Be aware that Fizz can flash mid-E.
+        \n
+        \n
+        - Save dashes/blinks for Fizzs’ Q, E and R.
+    </string>
+    <string name="galio_tips">
+        - Try to avoid standing next to your minions as Galio will want to use his Q (Winds of War) to clear minions/to CS.
+        \n
+        \n
+        - Galio’s E (Justice Punch) can be interrupted and/or blocked.
+        \n
+        \n
+        - Be aware of Galio’s W(Shield of Durand) as he can flash while channeling it.
+        \n
+        \n
+        - If Galio is missing from the map, be aware of his ultimate (Hero’s Entrance) as he can turn a fight around.
+    </string>
+    <string name="gangplank_tips">
+        - Try to abuse Gangplanks’ early on as he is usually weaker in his early levels.
+        \n
+        \n
+        - Keep a close eye on his E (Powder Keg) as they can do a large amount of damage, especially late game.
+        \n
+        \n
+        - Keep in mind that his W (Remove Scurvy) heals him and remove any CC, base cool down on this ranges from 22-14 seconds.
+        \n
+        \n
+        - Gangplanks’ ultimate (Cannon Barrage) is global so always track the cool down on this spell, which ranges from 180 seconds at level 6, 160 seconds and level 11 and 140 seconds at level 16 (without cool down reduction).
+    </string>
+    <string name="garen_tips">
+        - Garens’ health regeneration should not be underestimated as his passive (Perseverance) regenerates his health slowly based on his maximum health, this is interrupted if he takes non-minion damage or if he is hit by enemy abilities.
+        \n
+        \n
+        - Garens’ Q (Decisive Strike) cleanses himself from slows while gaining 30% movement speed. This spell silences enemies once hit.
+        \n
+        \n
+        - Garen has a lot of burst damage when using his full combo, his ultimate (Demacian Justice) does damage based on target’s missing health.
+        \n
+        \n
+        - Garens’ spells will do more damage if he is using them on the Villain, which is marked by a sword above the Villains head.
+    </string>
+    <string name="gnar_tips">
+        - When facing Gnar, you must keep track on his passive (Rage gene) which he gains upon dealing or receiving damage.
+        \n
+        \n
+        - All of Gnars abilities can be dodged except for his W (Hyper), so play accordingly.
+        \n
+        \n
+        - Be extra careful when his rage gene is almost full as he will turn into mega Gnar which is a big threat in team fights.
+        \n
+        \n
+        - Avoid standing next to walls against mega Gnar as he can stun you will doing extra damage with his ultimate (GNAR!).
+    </string>
+    <string name="gragas_tips">
+        - Gragas’ Q(Barrel Roll) moves slowly so try to avoid taking damage from it, although keep in mind the placement of it as he can activate it at any moment.
+        \n
+        \n
+        - Save your dashes/blinks for his E (Body Slam) and ultimate (Explosive Cask) as these skills stuns/displaces you which can put you in an unfavourable position.
+    </string>
+    <string name="graves_tips">
+        - Graves’ Q travels both ways from where it’s fired, and returns quicker if it hits terrain, try to avoid this ability as it deals a lot of damage.
+        \n
+        \n
+        - Be wary that he can be tanker than you’d think as his E (Quickdraw) gives him bonus amor.
+        \n
+        \n
+        - His ultimate (Collateral Damage) is also another spell you need to watch out for as have very high damage.
+        \n
+        \n
+        - Save your dashes/blinks for his Q/R.
+    </string>
+    <string name="hecarim_tips">
+        - It advised to ward deeper on the river since Hecarim has high movespeed with his E (Devastating Charge).
+        \n
+        \n
+        - Hecarim can go over narrow terrain with his E (Devastating Charge).
+        \n
+        \n
+        - His ultimate (Onslaught of Shadows) has a moderately slow travel time so you can react to it if you see it coming, you are also able to cleanse the flee effect of it.
+    </string>
+    <string name="heimerdinger_tips">
+        - It is worth knowing that Heimerdinger gains 20% bonus movement speed while near allied turrets or his own.
+        \n
+        \n
+        - He is able to place up to a maximum of 3 turrets.
+        \n
+        \n
+        - It is extremely important to dodge his E (CH-2 Electron Storm Grenade) as it will stun you allow him to hit you with his W (Hextech Micro-Rockets).
+        \n
+        \n
+        - Do not underestimate his ability to 1v2 especially when his ultimate (UPGRADE!!!) is up as his turrets can deal a lot of damage in prolonged fights.
+    </string>
+    <string name="illaoi_tips">
+        - Watch out for Illaoi\'s passive (Prophet of an Elder God) which spawns tentacles every 20-12 seconds, these tentacles deals damage to you and heals her however they can be avoided if you pay attention to them.
+        \n
+        \n
+        - You will be able to negate a lot of her damage if you dodge her Q (Tentacle Smash) and E (Test of Spirit), which can also be avoided if you see it coming.
+        \n
+        \n
+        - Illaoi is also known for taking on multiple enemies especially once she gets her ultimate (Leap of Faith).
+    </string>
+    <string name="irelia_tips">
+        - Prolonged fights against Irelia will be in her favour due to her usually taking the Conqueror keystone which synergises well with her passive (Ionian Fervor).
+        \n
+        \n
+        - If you are hit by her E/stun (Flawless Duet) or her ultimate (Vanguard\'s Edge) you will be marked, which in turn allows her to use her Q (Bladesurge) onto you without it going on cooldown.
+        \n
+        \n
+        - It is a good idea to wait for her W (Defiant Dance) to go on cooldown before dealing damage to her.
+    </string>
+    <string name="ivern_tips">
+        - Watch out for Ivern\'s level 1, as he can easily invade your jungle due to your passive (Friend of the Forest).
+        \n
+        \n
+        - The main ability to watch out for is his Q (Rootcaller).
+        \n
+        \n
+        - His E (Triggerseed) gifts a shield to himself, daisy or allied champions which slows nearby enemies once it explodes after 2 seconds.
+        \n
+        \n
+        - Ivern excels in team fights where he can cause disturbance with his skillset, while also peeling for his allied team mates.
+    </string>
+    <string name="janna_tips">
+        - Try to avoid early trades with Janna as her W (Zephyr) damage could add up into something significant (8 second cooldown).
+        \n
+        \n
+        - It\'s worth noting that she loses her bonus move speed once her W (Zephyr) is on cooldown.
+        \n
+        \n
+        - The best time to trade is when her E (Eye of the Storm) is on cool down which ranges from 18-10 seconds based on level.
+    </string>
+    <string name="jarvan_tips">
+        - Jarvan is known for his EQ combo (Demacian Standard and Dragon Strike), so be wary of this combo whilst fighting him.
+        \n
+        \n
+        - If possible save your dashes/blinks for his ultimate (Cataclysm) as if the timing is right you can negate the damage whilst escaping the terrain created by it.
+    </string>
+    <string name="jax_tips">
+        - The main skill to watch our for is his Q (Leap Strike) as this closes the distance which allows him to engage on you.
+        \n
+        \n
+        - Another key ability of Jax is his E (Counter Strike) which negates auto attack damage, his Q can be telegraphed if you see him charging his E up.
+        \n
+        \n
+    </string>
+    <string name="jayce_tips">
+        - Jayce is known for his combo revolving around his Q and E (Shock Blast and Acceleration Gate) in cannon mode, he is able to use his Q before his E which can be unexpected, you should be wary of this combo at all times.
+        \n
+        \n
+        - Save your dashes/blinks for his E (Thundering Blow) in hammer form to negate the damage.
+    </string>
+    <string name="jhin_tips">
+        - Keep track of his 4th shot indicated by his ammo bar below his health bar, trading autos with his 4th shot in lane usually results in you losing the trade.
+        \n
+        \n
+        - Be sure to be quick on your feet to dodge his W (Deadly Flourish) which can be anticipated.
+        \n
+        \n
+        - Be careful when standing next to your 3 range minions in lane as he can use his Q (Dancing Grenade) to deal free damage to you.
+    </string>
+    <string name="jinx_tips">
+        - Be sure to be quick on your feet to dodge her W (Zap!) which can be anticipated.
+        \n
+        \n
+        - You cannot dash over her E (Flame Chompers!) but you are able to blink/flash over it.
+        \n
+        \n
+        - Be wary when you are low health as it is possible for Jinx to snipe you with her ultimate (Super Mega Death Rocket!).
+    </string>
+    <string name="kaisa_tips">
+        - Watch out for her passive stacks on you which deals a lot of damage, (Up to 5 stacks).
+        \n
+        \n
+        - Try to keep your distance from her as her Q (Icathian Rain) has a range of 600.
+        \n
+        \n
+        - Be sure to be quick on your feet to dodge her W (Void Seeker) which can be anticipated.
+        \n
+        \n
+        - If marked by plasma you must be wary as she can use her ultimate (Killer Instinct) to dash to you whilst gaining a shield.
+    </string>
+    <string name="kalista_tips">
+        - Careful when standing next to a low allied minion as she can reset her E (Rend) on them.
+        \n
+        \n
+        - Be wary of her ultimate (Fate's Call) as she can engage fights unexpectedly.
+    </string>
+    <string name="karma_tips">
+        - Karma\'s can be obnoxious level 1 as her ultimate (Mantra) and Q (Inner Flame) deals a lot of damage, so anticipate this skillshot.
+        \n
+        \n
+        - Karma\'s Mantra cool down ranges from 45-36 seconds based on level so play around this early game, if you get damaged by her skills it will lower this cooldown.
+        \n
+        \n
+        - When her E (Inspire) is on cool down which is 10-8 based on level, it could be a good window to trade.
+    </string>
+    <string name="karthus_tips">
+        - If Karthus runs out of mana it could be a good idea not to finish him off as if you kill him, his passive will (Death Defiled) will come into play allowing him to use his spells again.
+        \n
+        \n
+        - Always be wary of Karthus\'s ultimate (Requiem) when he is on the enemy team.
+        \n
+        \n
+        - Watch out for his W (Wall of Pain) which can unexpectedly catch you out.
+    </string>
+    <string name="kassadin_tips">
+        - It is a good idea to gank a Kassadin early as his early game is weaker compared to other champions.
+        \n
+        \n
+        - His Q (Null Sphere) cooldown is 9, try to trade when this is on cool down.
+        \n
+        \n
+        - Once Kassadin hits level 6, watch the map carefully as he can easily roam with his ultimate (Riftwalk).
+        \n
+        \n
+        - Once Kassadin gets a few items, it is worth it to use your dashes/blinks to dodge his ultimate as it will deal a lot of damage to you.
+    </string>
+    <string name="katarina_tips">
+        - Keep track of Katarina\'s dagger which is indicated by a red circle on the ground as she can E (Shunpo) to these.
+        \n
+        \n
+        - If you and/or your teammate(s) is low health do not fight her as she will be able to get resets and turn the fight around.
+        \n
+        \n
+        - Save any CC for her ultimate (Death Lotus).
+    </string>
+    <string name="kayle_tips">
+        - It is worth noting that Kayle\'s passive (Holy Fervor) reduces enemies armor and magic resistance by up to 15%.
+        \n
+        \n
+        - Most of her damage come from her E (Righteous Fury) which has a cool down ranging from 18-14 based on level, so try to trade/all in her when this is down (it lasts for 10 seconds).
+        \n
+        \n
+        - Keep track of her ultimate (Intervention) which has a cool down ranging from 100-80 based on level.
+    </string>
+    <string name="kayn_tips">
+        - Be extremely cautious of Kayn\'s E (Shadow Step) which is indicated by a shadow if he is within terrain as this can surprise you.
+        \n
+        \n
+        - A key ability to dodge is his W (Blade Reach) as this can deal a lot of damage and if he is in his RHAAST mode it will knock up enemies.
+        \n
+        \n
+        - It is worth tracking his ultimate (Umbral Trespass) as he can stall or turn a fight around with it, 120-80 cooldown based on level.
+    </string>
+    <string name="kennen_tips">
+        - Keep track on his passive stacks on you (Mark of the Storm) as if it gets to 3 you will be stunned.
+        \n
+        \n
+        - Use dashes/blinks to dodge his Q (Thundering Shuriken) as this will also apply a passive stack.
+        \n
+        \n
+        - It is really important to keep track of a Kennen\'s flash as his flash + ultimate (Slicing Maelstrom) can be devastating.
+    </string>
+    <string name="khazix_tips">
+        - It\'s important to not push out too far without vision as a khazix will most likely beat you in a 1v1.
+        \n
+        \n
+        - Be aware of his evolutions at level 6, 11 and 16 as this can differ game to game.
+        \n
+        \n
+        - Keep track of him during team fights as he can sneak in and assassinate you with his ultimate (Void Assault).
+    </string>
+    <string name="kindred_tips">
+        - Keep an eye out on the minimap to keep track of her marks as this could have you track where the Kindred is or where they could be.
+        \n
+        \n
+        - Keep track of her ulimate (Lamb's Respite) cooldown as this could bait you into committing too hard in a team fight, cool down ranges from 160-100 based on level.
+    </string>
+    <string name="kled_tips">
+        - The main ability to keep track of is his ultimate (Chaaaaaaaarge!!!), if he is missing from the map and hit level 6 you need to be cautious of it.
+    </string>
+    <string name="kogmaw_tips">
+        - Keep track of his W (Bio-Arcane Barrage) which is his main source of damage, has a cool down of 17 seconds.
+        \n
+        \n
+        - Remember that he can still deal damage after death due to his passive (Icathian Surprise).
+    </string>
+    <string name="leblanc_tips">
+        - When Leblanc goes below 40% health she becomes invisible for 1 second and creates a clone which lasts 8 seconds. Cool down 60 seconds.
+        \n
+        \n
+        - Leblanc has extremely high burst damage so you should be wary of where she is at all times, especially when she is missing from the minimap.
+    </string>
+    <string name="leesin_tips">
+        - Be careful of Lee sin\'s early ganks as he is strong early game.
+        \n
+        \n
+        - A tip that no one really uses is to QSS his quick and flash away if he ever managed to insec you.
+        \n
+        \n
+        - It is wise to be cautious about his Q (Sonic wave) as it is a key skill for him to gap close/execute.
+    </string>
+    <string name="leona_tips">
+        - You can use your trinket wards to bait out her Q (Shield of Daybreak).
+        \n
+        \n
+        - Leona has a really strong level 2, be wary of her E (Zenith Blade).
+        \n
+        \n
+        - It is advised to build a QSS against her as she has multiple forms of hard cc.
+    </string>
+    <string name="lissandra_tips">
+        - Watch out for her E (Glacial Path) as this usually indicates when she wants to engage.
+        \n
+        \n
+        - Keep track of her ultimate (Frozen Tomb) as this ability is very valuable in team fights. 120-80 cool down based on level.
+    </string>
+    <string name="lucian_tips">
+        - Be careful when standing near minions as he can poke you with his Q (Piercing Light).
+        \n
+        \n
+        - Be careful of his level 2 power spike as he can all in with his E (Relentless Pursuit).
+    </string>
+    <string name="lulu_tips">
+        - It could be a good time to trade when her E (Help, Pix!) is on cool down.
+        \n
+        \n
+        - Keep track of her W (Whimsy) which can be QSS\'d.
+        \n
+        \n
+        - Keep track of her ultimate (Wild Growth) as this can be crucial in a fight. Cool down 110-80 based on level.
+    </string>
+    <string name="lux_tips">
+        - All of Lux\'s abilities are skillshots so be quick on your feet.
+        \n
+        \n
+        - Lux\'s ultimate is on a fairly low cool down so do no underestimate it.
+        \n
+        \n
+        - The main ability to dodge is her Q (Light Binding) as if you are hit by this you will get hit with everything else.
+    </string>
+    <string name="malphite_tips">
+        - Malphite is known only for his ultimate (Unstoppable Force) so track this ability as well as his flash. Cool down 130-80 based on level.
+    </string>
+    <string name="malzahar_tips">
+        - Keep track of Malzahar\'s ultimate (Nether Grasp) as well as his flash as this ability is crucial during fights. Cool down 140-80 based on level.
+        \n
+        \n
+        - It is worth noting that his Q (Call of the Void) silences you so watch out for this ability.
+    </string>
+    <string name="maokai_tips">
+        - It could be wise to wait for Maokai to use his W (Twisted Advance) before participating in the fight.
+        \n
+        \n
+        - His Q (Bramble Smash) will slightly knock enemies back so be wary of this ability.
+    </string>
+    <string name="masteryi_tips">
+        - Keep track of his W (Meditate) as he can usually turn a fight around with it.
+        \n
+        \n
+        - Make sure you use your escape abilities after he uses his Q (Alpha Strike) or otherwise it would follow you.
+        \n
+        \n
+        - Be careful when low hp against yi as he can get his cool down reduced significantly if he gets a kill.
+    </string>
+    <string name="missfortune_tips">
+        - Be careful when standing behind minions as her Q (Double Up) will bounce off of it and deal tons of damage.
+        \n
+        \n
+        - Keep track of her ultimate (Bullet Time) as this ability can single handedly win a fight.
+    </string>
+    <string name="mordekaiser_tips">
+        - It is worth noting that Mordekaiser gains a shield from the damage he deals.
+        \n
+        \n
+        - Watch out for his W (Harvester of Sorrow) as he can heal a considerable amount from it.
+        \n
+        \n
+        - If possible avoid letting Mordekaiser get dragon as he enslave the dragon into a ghost.
+    </string>
+    <string name="morgana_tips">
+        - Her main ability to watch out for is her Q (Dark Binding), save escape abilities to dodge this and/or build a QSS.
+        \n
+        \n
+        - Keep track of her flash and ultimate (Soul Shackles) as it can unexpectedly catch you out.
+    </string>
+    <string name="nami_tips">
+        - It can be wise to avoid trading against her as she can heal up with her W (Ebb and Flow).
+        \n
+        \n
+        - Main ability to watch out for is her Q (Aqua Prison), save escape abilities to dodge this.
+    </string>
+    <string name="nasus_tips">
+        - It can be wise to gank a nasus early to shut him down as his Q (Siphoning Strike) infinitely scales.
+        \n
+        \n
+        - It can be wise to build a QSS or wait for Nasus to use his W (Wither) as it can slow you for up to 95%.
+    </string>
+    <string name="nautilus_tips">
+        - It is worth noting that Nautilus\'s passive (Staggering Blow) will root you if he autos you.
+        \n
+        \n
+        - Main ability to watch out for is his Q (Dredge Line), save escape abilities to dodge.
+        \n
+        \n
+        - It can be wise to build a QSS for his ultimate (Riptide) as it is point and click, however you must flash or use escape abilities once you QSS.
+    </string>
+    <string name="nidalee_tips">
+        - Main ability to watch out for is her Q (Javelin Toss) as this can deal a lot of damage from afar.
+        \n
+        \n
+        - If hit by a spear, it can be telegraphed that she will use her W (Pounce) on you, if you time you escape abilities correctly you can negate the damage.
+    </string>
+    <string name="nocturne_tips">
+        - Main ability to keep track of is his ultimate (Paranoia) as you will lose vision for 6 seconds.
+        \n
+        \n
+        - It can be wise to build a QSS to negate his E (Unspeakable Horror) which also gives him movement speed when moving towards fleeing targets.
+    </string>
+    <string name="nunu_tips">
+        - Watch out for early Nunu dragons or invades as his Q (Consume) allows him easily to kill monsters.
+        \n
+        \n
+        - Save hard CC for his ultimate (Absolute Zero) as a fully channeled ultimate will deal massive amounts of damage.
+    </string>
+    <string name="olaf_tips">
+        - It is worth noting that Olaf gains attack speed the lower health he is due to his passive (Berserker Rage).
+        \n
+        \n
+        - Keep track of Olaf\'s ultimate (Ragnarok) as this ability allows Olaf to remove and ignore all crowd control. Cool down 100-80 based on level.
+    </string>
+    <string name="orianna_tips">
+        - Keep track on Orianna\'s ball at all times.
+        \n
+        \n
+        - Save escape abilities to dodge her ultimate (Command: Shockwave), you are able to react to the animation of it.
+    </string>
+    <string name="ornn_tips">
+        - It is worth noting that Ornn can build items outside of the shop.
+        \n
+        \n
+        - Watch out for his E (Searing Charge) as this can cause you to be in a bad position.
+        \n
+        \n
+        - Keep track of his ultimate (Call of the Forge God) as he can engage from a long distance with it. Cool down 140-100 based on level.
+    </string>
+    <string name="pantheon_tips">
+        - Pantheon is very strong in lane due to his (Spear Shot).
+        \n
+        \n
+        - It is worth noting that Pantheon\'s passive (Aegis Protection) can block turret shots.
+        \n
+        \n
+        - Watch the mini map at all times especially after he hits 6 as he can roam with his ultimate (Grand Skyfall).
+    </string>
+    <string name="poppy_tips">
+        - Save your escape abilities to dodge her E (Heroic Charge) or her ultimate (Keeper\'s verdict).
+        \n
+        \n
+        - If possible try to save your dashes after she has used her W (Steadfast Presence).
+        \n
+        \n
+        - It is worth noting that poppy gains 20% armor and magic resistance once she falls below 40$ maximum health.
+    </string>
+    <string name="quinn_tips">
+        - Main ability to dodge is her Q (Blinding Assault) as this will blind you for 1.5 seconds.
+        \n
+        \n
+        - It is worth noting her E (Vault) can be interrupted.
+        \n
+        \n
+        - Watch the mini map at all times especially after she htis 6 as she can roam with her ultimate (Behind Enemy Lines).
+    </string>
+    <string name="rakan_tips">
+        - If possible stand behind minions to avoid his Q (Gleaming Quill).
+        \n
+        \n
+        - Save escape abilities to dodge his W (Grand Entrance).
+        \n
+        \n
+        - Be very carefully after Rakan hits 6 as he can unexpectedly engage onto you with his ultimate (The quickness). Cool down 120-80 based on level.
+    </string>
+    <string name="rammus_tips">
+        - Ward deeper than usual as Rammus\'s ganks are devastating due to his movement speed from his Q (Powerball).
+        \n
+        \n
+        - It can be wise to build a QSS to negate his E (Frenzying Taunt).
+        \n
+        \n
+        - Try to keep distance from him if possible as his ultimate (Tremors) slows nearby enemies.
+    </string>
+    <string name="reksai_tips">
+        - It is possible to track Rek\'sai by looking at the duration bar of her tunnels.
+        \n
+        \n
+        - Keep track of Rek\'sai\'s flash as a common combo is to flash W (Unburrow).
+    </string>
+    <string name="renekton_tips">
+        - Keep track of the red bar under his health bar as the more he has the more damage he can do with his abilities.
+        \n
+        \n
+        - If possible save escape abilities to dodge his Q (Cull the Meek) as this also heals him.
+        \n
+        \n
+        - It can be wise to build a QSS to negate hsi W (Ruthless Predator).
+        \n
+        \n
+        - It is worth noting that if his E (Slice and Dice) hits an enemy, he is able to recast it one more time.
+    </string>
+    <string name="rengar_tips">
+        - It can be wise to stay away from bushes when fighting Rengar as he can leap from them.
+        \n
+        \n
+        - Once Rengar hits 6 you must be wary of where he is as his ganks are very strong with his ultimate (Thrill of the Hunt).
+        \n
+        \n
+        - Save escape abilities to dodge his E (Bola Strike) if possible.
+    </string>
+    <string name="riven_tips">
+        - One of Riven\'s major abilities to keep track of is her ultimate (Blade of the Exile) as this enhances all her other abilities, it lasts for 15 seconds and has a cool down of 130-60 based on level.
+        \n
+        \n
+        - Riven effectively has 4 dashes, 5 if you include her flash.
+        \n
+        \n
+        - Keep track of her flash at all times.
+    </string>
+    <string name="rumble_tips">
+        - When against a Rumble, try not to fight in narrow areas as this could be a perfect ultimate (The Equalizer) for him.
+        \n
+        \n
+        - Save escape abilities to dodge his E (Electro Harpoon).
+    </string>
+    <string name="ryze_tips">
+        - Keep track of Ryze\'s flash as flash W (Rune Prison) can caught you out easily.
+        \n
+        \n
+        - It can be wise to not stay clumped up when fighting Ryze as he can deal a   of AOE damage with his many combos.
+        \n
+        \n
+        - Be careful when Ryze hits 6 as he can roam and caught you off guard with his ultimate (Realm Warp).
+    </string>
+    <string name="sejuani_tips">
+        - Keep track of her flash as a common combo is flash Q (Arctic Assault) or flash ultimate (Glacial Prison).
+        \n
+        \n
+        - Save escape abilities to dodge her Q and ultimate.
+        \n
+        \n
+        - It can be wise to build a QSS to negate her E (Permafrost) or her ultimate.
+    </string>
+    <string name="shaco_tips">
+        - It is wise to not push too far without knowing where Shaco is as he will most likely kill you if you are alone.
+        \n
+        \n
+        - Keep in mind that most Shaco\'s take ignite so expect a lot of early game damage from him.
+        \n
+        \n
+        - It is worth noting that Shaco\'s basic attacks slows enemies while his R (Two-Shiv Poison) is off cool down.
+        \n
+        \n
+        - Warding deeper can be wise as his ganks are very strong due to his invisibility with his Q (Deceieve).
+    </string>
+    <string name="shen_tips">
+        - Save escape abilities and/or build QSS to dodge/negate his E (Shadow Dash).
+        \n
+        \n
+        - Be extremely cautious once Shen hits 6 as he can turn any fight around with his ultimate (Stand United).
+        \n
+        \n
+        -Keep track of his flash as he can E flash which is a common combo.
+    </string>
+    <string name="shyvana_tips">
+        - Watch out for early dragons as Shyvana is capable of doing this.
+        \n
+        \n
+        - Watch out for the bar under her health bar as when this is full she is able to use her ultimate (Dragon's Descent).
+    </string>
+    <string name="singed_tips">
+        - It can be wise to not chase singed as he is capable of usually escaping and wasting time.
+        \n
+        \n
+        - Be cautious of where a singed is at all times, as his E (Fling) can catch you off guard especially if you are flung into his W (Mega Adhesive).
+    </string>
+    <string name="sion_tips">
+        - Keep in mind that after death, Sion can still deal damage due to his passive (Glory in Death).
+        \n
+        \n
+        - Save escape abilities to dodge his Q (Decimating Smash), E (Roar of the Slayer) and his ultimate (Unstoppable Onslaught).
+        \n
+        \n
+        - Be careful once Sion is missing from the map after 6, as he can impact any lane with his ultimate.
+    </string>
+    <string name="sivir_tips">
+        - It is very important to note that Sivir can block any ability with her E (Spell Shield).
+        \n
+        \n
+        - It is also important to note that Sivir is very efficient in clearing minions due to her Q (Boomerang Blade) and her W (Ricochet).
+    </string>
+    <string name="skarner_tips">
+        - If possible try to capture the Crystal Spires around the map as Skarner gains stats around them.
+        \n
+        \n
+        - Use escape abilities to dodge his E (Fracture).
+        \n
+        \n
+        - Track his flash and a common combo is flash ultimate (Impale).
+        \n
+        \n
+        - It is advised to build a QSS to negate his ultimate.
+    </string>
+    <string name="sona_tips">
+        - Sona\'s main ability is her ultimate (Crescendo), save escape abilities to dodge this or build QSS to negate it.
+        \n
+        \n
+        - If possible avoid trading with Sona as she will usually come out on top.
+    </string>
+    <string name="soraka_tips">
+        - If possible avoid trading with Soraka as she will usually come out on top.
+        \n
+        \n
+        - Watch out for her early Qs (Starcall) as this can deal a lot of damage over time, cool down 5 seconds.
+        \n
+        \n
+        - It's important to know she has a silence, her E (Equinox).
+        \n
+        \n
+        - Be wary once Soraka hits 6 and she can heal everyone on her team with her ultimate (Wish).
+    </string>
+    <string name="swain_tips">
+        - Main ability to dodge is his W (Nevermove) as if you are hit he can activate his passive (Ravenous Flock) to pull you in towards him.
+        \n
+        \n
+        - Track Swain\'s flash and ultimate as they can be crucial in team fights, cool down on ultimate 120 seconds.
+    </string>
+    <string name="syndra_tips">
+        - Pay attention to Syndra\'s Qs (Dark Sphere) as they can deal a lot of damage over time.
+        \n
+        \n
+        - Use escape abilities to dodge her E (Scatter the Weak).
+        \n
+        \n
+        - It is wise to track her ultimate (Unleashed Power) cool down 120-80 based on level.
+        \n
+        \n
+        - It is worth noting that Syndra\'s abilities gains additional effects at max ranks.
+    </string>
+    <string name="tahmkench_tips">
+        - Stand behind minions to avoid his Q (Tongue Lash).
+        \n
+        \n
+        - Often times Tahm Kench can save his team mates from dangerous situations with his W (Devour) so keep that in mind. Cool down 14-10 based on levels.
+        \n
+        \n
+        - Be cautious once Tahm Kench hits level 6 as he can unexpectedly roam and gank with his ultimate (Abyssal Voyage).
+    </string>
+    <string name="taliyah_tips">
+        - Watch out for when a Taliyah hits level 6 as she can roam with her ultimate (Weaver\'s Wall). Cool down 180-120 based on level.
+        \n
+        \n
+        - Use escape abilities to dodge W (Seismic Shove).
+    </string>
+    <string name="talon_tips">
+        - Be cautious if Talon is missing, as he can move around the map swiftly with his E (Assasin\'s Path).
+        \n
+        \n
+        - Use escape abilities to dodge his Q (Noxian Diplomacy) and W (Rake).
+    </string>
+    <string name="taric_tips">
+        - Taric\'s auto attacks after casting an ability reduce the cooldowns of his basic abilities due to his passive (Bravado).
+        \n
+        \n
+        - Use escape abilities to dodge his E (Dazzle).
+        \n
+        \n
+        - Keep track of his flash and ultimate (Cosmic Radiance) as it can turn around a fight. Cool down 160-100 based on level.
+    </string>
+    <string name="teemo_tips">
+        - Keep in mind that Teemo\'s passive (Guerrilla Warfare) grants him invisibility if he is stood still.
+        \n
+        \n
+        - It is worth noting that QSS removes Teemo\'s Q (Blinding Dart).
+        \n
+        \n
+        - It is a good idea to get a red trinket to remove Teemo\'s shrooms from his ultimate (Noxious Trap).
+    </string>
+    <string name="thresh_tips">
+        - It is worth noting that Thresh can throw his Q (Death Sentence) in any direction regardless of the direction he is facing during the wind up.
+        \n
+        \n
+        - It is possible to block Thresh\'s W (Dark Passage) by placing a ward on the correct spot.
+        \n
+        \n
+        - Careful not to get too close to Thresh during the early phase of the lane as he can use his E (Flay) to catch you off guard.
+    </string>
+    <string name="tristana_tips">
+        - Try to not stand next to low healthed ally minions as Tristana\'s E (Explosive Charge) will deal damage to nearby targets if she kills it.
+        \n
+        \n
+        - Explosive Charge stacks up to 4 times, if Tristana manually detonates her E, her W (Rocket Jump) has it\'s cool down reset.
+        \n
+        \n
+        - If Tristana gets a kill or assist, her W has it\'s cool down reset.
+    </string>
+    <string name="trundle_tips">
+        - It is worth noting that whenever an enemy dies near Trundle, he heals for a % of his max health from his passive (King\'s Tribute).
+        \n
+        \n
+        - Tracking Trundle\'s E (Pillar of Ice) is a good idea as it can cause a lot of disruption in fights. Cool down 22-14 seconds based on level.
+    </string>
+    <string name="tryndamere_tips">
+        - Track the cool down of Tryndamere\'s ultimate (Undying Rage) as he can turn fights around on his own with it.
+        \n
+        \n
+        - It is worth noting that Tryndamere gains critical chance based on fury from his passive (Battle Fury).
+        \n
+        \n
+        - It is worth noting that the Tryndamere gains bonus attack damage per 1% of his missing health from his Q (Bloodlust).
+    </string>
+    <string name="twistedfate_tips">
+        - Twisted Fate\'s W (Pick a Card) has 3 different effects.
+        \n
+        \n
+        - Blue card: most damage and restores his mana.
+        \n
+        \n
+        - Red card: second most damage and slows enemies dealing AOE damage.
+        \n
+        \n
+        - Gold card: least damage and stuns target, recommended to build QSS to negate this.
+        \n
+        \n
+        - Extremely important to be cautious after Twisted Fate hits level 6 and he can roam with his ultimate (Destiny), cool down 180-120 based on level.
+    </string>
+    <string name="twitch_tips">
+        - A jungle Twitch is known for his level 2 ganks, be extra safe.
+        \n
+        \n
+        - Be cautious when Twitch is missing from the map, as he can surprise you with his Q (Ambush) which makes him camouflaged.
+        \n
+        \n
+        - Extended trades against Twitch is likely to be unfavourable as getting 6 stacks of his passive (Deadly Venom) into his E (Contaminate) will deal a lot of damage.
+    </string>
+    <string name="udyr_tips">
+        - It is worth noting every time Udyr uses an ability, he gains movement speed from his passive (Monkey\'s Agility).
+        \n
+        \n
+        - His E (Bear Stance) will cause his next auto attack to stun the target. Stun cool down on target 5 seconds.
+    </string>
+    <string name="urgot_tips">
+        - Be careful of his E (Disdain) which after a 0.25 second channel, Urgot dashes in target direction and if collides with enemy champion with fling them over himself and stun them for 0.75 seconds after they land.
+        \n
+        \n
+        - If you are below 25% of your maximum health, be extremely careful of his ultimate (Fear Beyond Death) as it will execute you while terrifying and slowing nearby allies.
+        \n
+        \n
+        - If possible do not get into melee range of Urgot as he will deal a lot of damage with his W (Purge).
+    </string>
+    <string name="varus_tips">
+        - Be quick on you feet in lane as Varus can get free poke in with his E (Hail of Arrows).
+        \n
+        \n
+        - Be cautious after Varus hits 6 as he can catch you out with his ultimate (Chain of Corruption), use escape abilities or QSS to avoid/negate this.
+        \n
+        \n
+        - Varus deals more damage with his abilities if he gets his W (Blighted Quiber) stacks on you, maximum up to 3.
+    </string>
+    <string name="vayne_tips">
+        - Once Vayne\'s Q (Tumble) is on cool down, it could be a good window to punish her.
+        \n
+        \n
+        - Careful when standing next to walls as she can use her E (Condemn) to stun you against terrain.
+        \n
+        \n
+        - Extended trades could be unfavourable as Vayne\'s W (Silver Bolts) will deal % of your health when stacked 3 times.
+        \n
+        \n
+        - It is worth noting that she gains 30 bonus movement speed when moving towards a nearby visible enemy champion. Passive (Night Hunter) 2000 range.
+        \n
+        \n
+        - Her ultimate (Final Hour) triples her passive bonus movement speed allows her Q to grant invisibility.
+        \n
+        \n
+        - If she gets an assist or kill during final hour, it\'s duration is extended by 4 seeconds.
+    </string>
+    <string name="veigar_tips">
+        - Veigar can infinitely scale due to his passive (Phenomenal Evil Power) and his Q (Baleful Strike).
+        \n
+        \n
+        - Use escape abilities to dodge hi Q and W (Dark Matter).
+        \n
+        \n
+        - You cannot dash through his E (Event Horizon) however you can blink/flash over it.
+        \n
+        \n
+        - It could be worth building a QSS to negate his E.
+        \n
+        \n
+        - Keep track of his flash as a flash ultimate (Primordial Burst) could unexpectedly burst you down. Range 650, cool down 120-80 based on level.
+    </string>
+    <string name="velkoz_tips">
+        - Vel\'Koz passive (Organic Deconstruction) will deal a lot of damage if stacked up to 3 times, and is activated by his abilities.
+        \n
+        \n
+        - His Q (Plasma Fission) is a tricky skill shot, which fires in a straight line and then split into two, firing in opposite directions perpendicular to the original bolt.
+        \n
+        \n
+        - Use escape abilities to dodge his E (Tectonic Disruption) as if this hits, he will be able to hit his other abilities effortlessly.
+    </string>
+    <string name="vi_tips">
+        - It is worth noting that when Vi hits an enemy with an ability she gains a 10% maximum health shield for up to 3 seconds from her passive (Blast Shield).
+        \n
+        \n
+        - Vi\'s Q can be interrupted with hard CC and can be body blocked by champions to deny her getting over terrain.
+        \n
+        \n
+        - Be careful when standing behind minions and/or monsters and Vi\'s E (Excessive Force) will deal damage through them.
+        \n
+        \n
+        - Keep track of her flash and ultimate (Assault and Battery) as this is crucial in her kit. Range 800, cool down 130-70 based on level.
+    </string>
+    <string name="viktor_tips">
+        - Viktor gains a shield after he uses his Q (Siphon Power).
+        \n
+        \n
+        - Each one of Viktor\'s abilities upgrade once he upgrades his 'Prototype Hex Core' with his passive (Glorious Evolution).
+    </string>
+    <string name="vladimir_tips">
+        - Vladimir\'s Q (Transfusion) heals himself, if he gains stacks which is indicated by the bar under his health, he will deal increased damage and heal for more, stay away from him the bar is full.
+        \n
+        \n
+        - Keep track of his W (Sanguine Pool) as he can stall and turn around fights with it. Cool down 28-16 based on level.
+        \n
+        \n
+        - Vladimir can flash mid E charge (Tides of Blood) so be careful when his flash is up.
+    </string>
+    <string name="volibear_tips">
+        - It is worth noting that Volibear\'s passive (Chosen of the Storm) has a static cool down of 120 seconds.
+        \n
+        \n
+        - Be cautious of Volibear when his Q (Rolling Thunder) and flash is up as he can catch you off guard with it.
+    </string>
+    <string name="warwick_tips">
+        - It is advised to track Warwick\'s ultimate (Infinite Duress) as this ability is crucial in fights. Cool down 110-70 based on level.
+        \n
+        \n
+        - It is wise to build a QSS to negate his ultimate.
+        \n
+        \n
+        - Be extremely cautious while you are below 50% health as his W (Blood Hunt) will highlight you position whether you are in vision or not.
+    </string>
+    <string name="wukong_tips">
+        - It is worth noting that Wukong gains bonus armor and magic resistance for each visible enemy champion nearby from his passive (Stone Skin).
+        \n
+        \n
+        - Be cautious when Wukong is standing still as he could be in his W (Decoy) which grants him invisiblity for 1.5 seconds.
+        \n
+        \n
+        - Save escape abilities for his E (Nimbus Strike) to negate the damage.
+        \n
+        \n
+        - Keep track of his flash and ultimate (Cyclone) as it can be devastating in a team fight.
+    </string>
+    <string name="xayah_tips">
+        - Keep track of Xayah\'s feathers on the ground as she can root you for 1 second with her E (Bladecaller).
+        \n
+        \n
+        - Once Xayah uses an ability, her next 3 auto attacks will also shoot feathers.
+        \n
+        \n
+        - Keep track of her flash as she can redirect her E using her flash.
+        \n
+        \n
+        - Keep track of her ultimate (Featherstorm) as it can prevent her death or bait you into taking a disadvantageous fight.
+    </string>
+    <string name="xerath_tips">
+        - All of Xerath\'s abilities are skill shots so it could be wise to build tier 2 boots early.
+        \n
+        \n
+        - Use escape abilities to dodge his E (Shocking Orb) as it will stun you if hit.
+        \n
+        \n
+        - It is worth noting that Xerath cannot move while casting his ultimate (Rite of the Arcane) + (Arcane Barrage).
+    </string>
+    <string name="xinzhao_tips">
+        - It is worth noting that every third basic attack heals Xin Zhao from his passive (Determination).
+        \n
+        \n
+        - Xin Zhao\'s third basic attack will knock up targets if his Q (Three Talon Strike) is active.
+        \n
+        \n
+        - Save escape abilities to dodge his E (Audacious Charge).
+    </string>
+    <string name="yasuo_tips">
+        - Yasuo gains double the critical strike chance from all sources due to his passive (Way of the Wanderer).
+        \n
+        \n
+        - The third cast of Yasuo\'s Q (Steel Tempest) will unleash a whirlwind will can knock up targets.
+        \n
+        \n
+        - Yasuo\'s W (Wind Wall) blocks all incoming projectiles. Cool down 26-18 seconds based on level.
+        \n
+        \n
+        - It is wise to stay away from minions while fighting Yasuo as he can dash all around with his E (Sweeping Blade).
+        \n
+        \n
+        - It is worth noting that Yasuo is able to use his ultimate (Last Breath) on all visible airborne enemies.
+    </string>
+    <string name="yorick_tips">
+        - Yorick\'s Q (Last Rites) enables his next basic attacks within 6 seconds to have 50 bonus range as well as heal him.
+        \n
+        \n
+        - Yorick\'s W (Dark Procession) creates a wall which can be destroyed, scales from 2 to 4 health.
+        \n
+        \n
+        - Use escape abilities to dodge his E (Mourning Mist) or escape his W.
+    </string>
+    <string name="zac_tips">
+        - It is worth noting that Zac\'s passive (Cell Division) has a static cool down of 300.
+        \n
+        \n
+        - You must remember that you must effectively kill zac twice to take him down due to his passive.
+        \n
+        \n
+        - It is advised to ward deep into enemy jungle as he can gank from far away with his E (Elastic Slingshot).
+        \n
+        \n
+        - Use escape abilities to dodge his Q (Stretching Strikes) or more important his E and ultimate (Let\'s Bounce!).
+    </string>
+    <string name="zed_tips">
+        - It is worth noting that Zed\'s basic attacks against targets below 50% max health deal bonus % health damage from his passive (Contempt for the Weak).
+        \n
+        \n
+        - Zed\'s Q (Razor Shuriken) and E (Shadow Slash) can be cast from his W shadow (Living Shadow).
+        \n
+        \n
+        - Keep track of all of Zed\'s shadows as he can switch places with them.
+    </string>
+    <string name="ziggs_tips">
+        - It can be wise to build early boots as all of Zigg\'s abilities are skillshots.
+        \n
+        \n
+        - It is worth noting that his W (Satchel Charge) can destroy turrets which are low, 25-35% health based on level.
+        \n
+        \n
+        - Be cautious when Zigg\'s is missing from the map as he can use his ultimate (Mega Inferno Bomb) from a distance of 5300 range. Cool down 120-90 seconds based on level.
+    </string>
+    <string name="zilean_tips">
+        - Zilean is able to throw 2 Qs (Time Bomb) in quick succession with the use of his W (Rewind).
+        \n
+        \n
+        - It is worth tracking the rank 1 cool down of Zilean\'s ultimate (Chronoshift) which is 120 seconds.
+        \n
+        \n
+        - In later stages of the game assume his ultimate is always up as it has a low cool down.
+
+    </string>
+    <string name="zoe_tips">
+        - Keep a close eye on minions with a balloon over its head as it will contain a summoner spell or item active for Zoe\'s W (Spell Thief).
+        \n
+        \n
+        - Be careful when Zoe is missing as she can fire her E (Sleepy Trouble Bubble) with extended range and follow up with her Q (Paddle Star).
+        \n
+        \n
+        - It can be wise to build a QSS to negate the sleep from her E.
+    </string>
+    <string name="zyra_tips">
+        - Step on her seeds when safe to do so to prevent it from sprouting into a plants.
+        \n
+        \n
+        - Her plants stay on the battlefield for 8 seconds.
+        \n
+        \n
+        - Track Zyra\'s ultimate (Stranglethorns) cool down as it deals a ton of damage. Cool down 130-110 seconds based on level.
+        \n
+        \n
+        - Use escape abilities to dodge her E (Grasping Roots).
+    </string>
+
+
+</resources>
